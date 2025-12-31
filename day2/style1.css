@@ -4,15 +4,22 @@ body{
     display: flex;
     /*1)justify-content: center; /* flex-end, flex-start, flex-end, space-around, space-between, space evenly--> this is along x-axis*/
     /*1)align-items: center; /* flex-end, flex-start, center, stretch--> this is along y-axis */
-    flex-direction: column; /* row, row-reverse, column-reverse */
-    justify-content: flex-start; /* main axis */
-    align-items: center; /* cross axis */
-    
+    /*2)flex-direction: column; /* row, row-reverse, column-reverse */
+    /*2)justify-content: flex-start; /* main axis */
+    /*2)align-items: center; /* cross axis */
+    gap: 20px; /* gap between items, we can also use column-gap and row-gap to change individually*/
+    flex-wrap: wrap; /* nowrap, wrap, wrap-reverse --> resizes dynamically top next line*/
+    justify-content: center;/*flex-end, flex-start, center, space-around, space-between, space-evenly */
+    align-items: center;/*flex-end, flex-start, center, stretch */
+    align-content: center; /* when there are multiple rows/columns */
 }
 
 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     width: 200px;
     background-color: #0071FF;
     font-size: 40pt;
-}
+}  
