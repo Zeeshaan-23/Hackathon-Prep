@@ -17,7 +17,9 @@ body{
 
 #box-1{
     /*4)flex-shrink: 0; /* it will not shrink even if there is not enough space in the container */
-    flex-grow: 1; /* it will grow to fill the extra space in the container */
+    /*5)flex-grow: 1; /* it will grow to fill the extra space in the container */
+    align-self: flex-start; /* overrides align-items for individual item */
+    margin-right: auto; /* pushes the item to the left */
 }
 .box{
     /*4)flex-shrink: 1; /* default is 1, it can shrink to fit in the container */
