@@ -2,8 +2,12 @@ body{
     min-height: 800px;
     border: 8px solid black;
     display: flex;
-    justify-content: center; /* flex-end, flex-start, flex-end, space-around, space-between */
-    align-items: center; /* flex-end, flex-start, center, stretch */
+    /*1)justify-content: center; /* flex-end, flex-start, flex-end, space-around, space-between, space evenly--> this is along x-axis*/
+    /*1)align-items: center; /* flex-end, flex-start, center, stretch--> this is along y-axis */
+    flex-direction: column; /* row, row-reverse, column-reverse */
+    justify-content: flex-start; /* main axis */
+    align-items: center; /* cross axis */
+    
 }
 
 .box{
