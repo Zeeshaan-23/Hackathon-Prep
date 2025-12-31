@@ -1,5 +1,3 @@
-Documenting and tracking my progress in learning how to build a web app.
-
 ## Web App Fundamentals – Hackathon Prep
 
 **WEEK 1**:<br>
