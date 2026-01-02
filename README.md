@@ -7,7 +7,7 @@ This repo contains my daily progress while learning:
 Built a complete HTML form using text, email, number, date, radio buttons, checkboxes, dropdowns, file upload, and specialized inputs such as phone, URL, color, and password. Implemented native form validation using required fields and input constraints. Connected the form to a results page to demonstrate an input to output flow by passing and displaying data via URL parameters. Practiced proper label associations and maintained clear, incremental Git commits.<br>
 **Files:**
 
-- [index.html](./index.html)
+- [index.html](./day1/index.html)
 - [results.html](./results.html)
 
 
