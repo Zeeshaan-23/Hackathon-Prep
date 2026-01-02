@@ -1,0 +1,26 @@
+/*
+responsive design notes: always think inside the box.
+   everything you see on a website is just a box, everything can be broken down into rows and columns
+   a responsive layout is essentially moving the elements around to fit different screen sizes
+   
+   flex: 1 1 auto; means the element can grow and shrink as needed, taking up available space
+   this is the most used configuration for flexbox layouts 
+   
+   in grid layouts, you define rows and columns explicitly, giving you more control over placement and sizing of elements
+   ex: display: grid;
+       gap: 1rem;
+       grid-template-columns: 1fr 2fr; ->> 1fr 2fr divides the container into 2 parts of ratio 1 : 2
+
+    if you want a flexible layout use flexbox, if you want a specific layout use grid
+
+
+   it is better to first design the layout for multiple screens first, then adjust content within those layouts later
+   
+   media queries help you change the layout based on screen size, it works on different conditions like width, height, orientation, resolution, etc.
+   
+   use felxbox only until you can decide hat you need a grid layout
+
+   position property is used to control the positioning of elements on a webpage. There are several values for the position property, 
+   including: static, relative, absolute, fixed, and sticky. 
+   
+*/
