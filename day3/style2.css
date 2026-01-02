@@ -47,3 +47,7 @@ button {
     cursor: pointer;
     border-radius: 4px;
 }
+
+button:hover {
+    background-color: #1e4ed8;
+}
