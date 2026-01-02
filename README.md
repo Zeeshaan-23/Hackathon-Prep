@@ -8,23 +8,23 @@ Built a complete HTML form using text, email, number, date, radio buttons, check
 **Files:**
 
 - [index.html](./day1/index.html)
-- [results.html](./results.html)
+- [results.html](./day1/results.html)
 
 
 **Day 2**: CSS Flexbox, spacing, and responsive layout fundamentals<br>
 Built a Flexbox based layout from scratch and progressively enhanced it through multiple iterations. Explored core Flexbox concepts including main axis and cross axis alignment, flex direction, wrapping behavior, gaps, and alignment overrides at both container and item levels. Practiced spacing using margin, padding, and gap with clear inline notes. Implemented responsive behavior using flex wrap and media queries to adapt layouts on smaller screens, reinforcing how layouts reflow dynamically.<br>
 **Files:**
 
-- [index1.html](./index1.html)
-- [style1.css](./style1.css)
+- [index1.html](./day2/index1.html)
+- [style1.css](./day2/style1.css)
 
 **Day 3**: Responsive design principles, DOM manipulation, events, and Fetch API<br>
 Expanded responsive design understanding by breaking layouts into rows and columns and learning when to use Flexbox versus Grid. Documented key responsive concepts including media queries and positioning properties. Built a mini web app using JavaScript to handle DOM selection, event handling, and form validation without page reloads. Implemented a Fetch API based user info app that retrieves data from a public API, dynamically renders user details, and handles fetch errors gracefully. Combined HTML, CSS, and JavaScript into a clean, responsive input to process to output flow.<br>
 **Files**:
-- [index2.html](./index2.html)
-- [Responsive-design.html](./Responsive-design.html)
-- [style2.css](./style2.css)
-- [script.js](./script.js)
+- [index2.html](./day3/index2.html)
+- [Responsive-design.html](./day3/Responsive-design.html)
+- [style2.css](./day3/style2.css)
+- [script.js](./day3/script.js)
 
 *Mini Web App Preview*<br>
 This mini web app demonstrates form validation, DOM manipulation, event handling, Fetch API usage, and responsive layout design using HTML, CSS, and JavaScript.
