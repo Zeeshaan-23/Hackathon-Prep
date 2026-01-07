@@ -1,6 +1,6 @@
 ## Web App Fundamentals – Hackathon Prep
 
-**WEEK 1**:<br>
+
 This repo contains my daily progress while learning:
 
 **Day 1**: HTML forms and inputs<br>
